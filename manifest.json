@@ -2,7 +2,7 @@
     "name": "Test PWA",
     "short_name": "App PWA",
     "lang": "ru-RU",
-    "start_url": "/pwa_test",
+    "start_url": "https://alexkorn22.github.io/pwa_test/",
     "display": "standalone",
     "theme_color": "#447d98",
     "background_color": "#ffffff",
