@@ -2,9 +2,11 @@
     display: flex;
     justify-content: center;
 }
+
 .btn {
     font-size: 20px;
     background-color: aqua;
     padding: 15px 25px;
     border-radius: 5px;
+    margin-top: 15px;
 }
