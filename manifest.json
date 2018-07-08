@@ -1,0 +1,12 @@
+{
+    "name": "Test PWA",
+    "short_name": "App PWA",
+    "lang": "ru-RU",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "img/icon-192x192.png"
+      }
+    ]
+  }
