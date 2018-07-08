@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Test</title>
 
@@ -36,19 +37,37 @@
 </head>
 <body>
     <div class="container">
-        <h1>First PWA 1.4</h1>
+        <div class="row">
+            <div class="col text-center mt-3">
+                    <h1>Первое приложение PWA</h1>
+            </div>
+        </div>
+        
     </div>
     <div class="container">
+        <div class="row">
+            <div class="col text-center mt-5">
+                <button class="btn btn-group-lg btn-primary" data-toggle="modal" data-target="#exampleModal">Нажми меня</button>
+            </div>
+        </div>
         
-        <button class="btn">Test</button>
     </div>
     
+    <div class="modal" tabindex="-1" role="dialog"  id="exampleModal">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <p>Все работает</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+                </div>
+              </div>
+            </div>
+    </div>
 
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script>
-       $(".btn").on('click', function (e) {
-           alert('testt');
-       })
-    </script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
